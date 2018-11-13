@@ -28,7 +28,7 @@ header {
     min-height: auto;
     text-align: center;
     color:#FFFFFF;
-    background-image: url('../images/mbi4.png');
+    background-image: url('../Images/mbi4.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -145,15 +145,15 @@ header .top .menu p {
 }
 
 .pic1 {
-	background: url('../images/12.png');
+	background: url('../Images/12.png');
 	}
 	
 .pic2 {
-	background: url('../images/13.png');
+	background: url('../Images/13.png');
 	}
 	
 .pic3 {
-	background: url('../images/14.png');
+	background: url('../Images/14.png');
 	}
 		
 .pic1,
