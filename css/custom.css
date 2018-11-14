@@ -128,7 +128,7 @@ header .top .menu p {
 
 .pic-team {
     height: 300px;
-    line-height: 180px;
+    line-height: 450px;
     text-align: center;
 	transition: all 0.3s ease-in;
 }
@@ -136,13 +136,14 @@ header .top .menu p {
 .pic-team:hover {
     background-size: 100%; 
     border: 10px solid rgba(255,255,255,0.3);
-    line-height: 300px;
+    line-height: 500px;
 }
 
 .pic-team h3 {
     font-size: 30px;
     display: inline-block;
     vertical-align: middle;
+    opacity:1;
 }
 
 .pic1 {
@@ -191,6 +192,7 @@ header .top .menu p {
 
 .linknavbar{
 	transition: all 0.2s ease-in;
+	cursor: pointer;
 }
 #homeNavBar{
 	background-color: white;
