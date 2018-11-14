@@ -100,3 +100,17 @@ var waypoint4 = new Waypoint({
 	offset: 750
 });
 });
+$("#homeNavBar").on("click", function(){
+  document.querySelector('#zeroSection').scrollIntoView({ 
+  behavior: 'smooth'});
+});
+$("#productNavBar").on("click", function(){
+  document.querySelector('#firstSection').scrollIntoView({ 
+  behavior: 'smooth'});
+});
+$("#contactNavBar").on("click", function(){
+  document.querySelector('#fourthSection').scrollIntoView({
+    behavior: 'smooth'
+  });
+});
+
