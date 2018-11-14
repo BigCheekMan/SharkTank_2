@@ -127,9 +127,10 @@ header .top .menu p {
 }
 
 .pic-team {
-    height: 400px;
+    height: 300px;
     line-height: 180px;
     text-align: center;
+	transition: all 0.3s ease-in;
 }
 
 .pic-team:hover {
@@ -155,10 +156,14 @@ header .top .menu p {
 .pic3 {
 	background: url('../Images/14.png');
 	}
+.pic4{
+	background: url("../Images/14.png");
+}
 		
 .pic1,
 .pic2,
-.pic3 {
+.pic3,
+.pic4 {
 	background-size: cover;
 	background-position: 50% 50%;
 	}
@@ -184,3 +189,46 @@ header .top .menu p {
     
 }
 
+.linknavbar{
+	transition: all 0.2s ease-in;
+}
+#homeNavBar{
+	background-color: white;
+}
+#homeNavBar:hover{
+	background-color: rgba(211,211,211,1.00);
+}
+#productNavBar:hover{
+	background-color: rgba(211,211,211,1.00);
+}
+#contactNavBar:hover{
+	background-color: rgba(211,211,211,1.00);
+}
+#siteNav{
+		animation: 1s ease-out 0s 1 slidesInFromTop;
+}
+@keyframes slidesInFromTop {
+  0% {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1 ;
+  }
+}
+#firstSection{
+	opacity: 0;
+}
+#secondSection{
+	opacity: 0;
+}
+#thirdSectio{
+	opacity: 0;
+}
+.fourthSection{
+	opacity: 0;
+}
+#fifthSection{
+	opacity: 0;
+}
