@@ -97,6 +97,6 @@ var waypoint4 = new Waypoint({
 	});
 	  this.destroy();
   },
-	offset: 600
+	offset: 750
 });
 });
